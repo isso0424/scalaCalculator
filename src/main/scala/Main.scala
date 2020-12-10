@@ -1,5 +1,7 @@
 package org.isso.scalaCalculator
 
+import interpreter.Interpreter
+
 object Main extends App {
-  println("Hello, world!")
+  Interpreter.exec()
 }
